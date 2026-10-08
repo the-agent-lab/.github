@@ -15,4 +15,13 @@
 - Luật quan trọng được giữ bằng hook và bước kiểm trước commit, không chỉ bằng lời dặn trong prompt.
 - Mỗi lần agent làm sai được ghi thành một dòng. Lỗi lặp lại thì được biến thành một bước kiểm tự động.
 
-Các repo đều riêng tư vì chứa tri thức và dữ liệu của dự án thật.
+## Dùng được ngay
+
+[`qa-system`](https://github.com/the-agent-lab/qa-system): plugin QA cho Claude Code. Kết quả mong đợi chốt từ spec trước khi đọc mã, phán quyết nào cũng kèm chứng cứ, lỗi được báo lại chứ không vá cho qua. Cài trong Claude Code:
+
+```text
+/plugin marketplace add the-agent-lab/qa-system
+/plugin install nghiem@the-agent-lab
+```
+
+Các repo còn lại đều riêng tư vì chứa tri thức và dữ liệu của dự án thật.
